@@ -1,0 +1,22 @@
+&lt; = <
+&gt; = >
+&amp; = &
+&nbsp = non-breaking space
+&quot = encoding
+<article>
+<aside>
+<header>
+<footer>
+<section>
+<nav>
+
+css->
+article>p = <article> <p></p> <article> direct child
+article p = not a direct child
+item-margin = top and bottom(bigger one overrides)
+overflow = changes to the content getting out of the box 
+position = relative (moving an element doesn't remove it space from the original position)
+By default the HTML tag is positioned relative
+@media(min-width:1200px){}
+@media(min-width:992px) and (max-width:1199px){}
+
